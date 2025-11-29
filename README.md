@@ -169,25 +169,13 @@ git clone <repository-url>
 cd AI_Intern_Assignment
 ```
 
-### Step 2: Create Virtual Environment (Recommended)
-
-```bash
-# On Windows
-python -m venv venv
-venv\Scripts\activate
-
-# On macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### Step 3: Install Dependencies
+### Step 2: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Set Up Environment Variables
+### Step 3: Set Up Environment Variables
 
 Create a `.env` file in the project root directory:
 
