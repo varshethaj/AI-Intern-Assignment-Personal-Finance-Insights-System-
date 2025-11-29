@@ -1,8 +1,8 @@
-# 💰 AI Intern Assignment — Personal Finance Insights System
+# AI Intern Assignment — Personal Finance Insights System
 
 A comprehensive data analytics and machine learning pipeline for personal finance pattern analysis, featuring automated insights generation powered by Google Gemini.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [System Architecture](#system-architecture)
@@ -20,7 +20,7 @@ A comprehensive data analytics and machine learning pipeline for personal financ
 
 ---
 
-## 🎯 Overview
+## Overview
 
 The **Personal Finance Insights System** is an end-to-end analytics platform that processes transaction data to generate actionable financial insights. The system combines traditional data engineering, machine learning models, and large language models to provide users with:
 
@@ -35,7 +35,7 @@ The system is built with a modular architecture, making it easy to extend and cu
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -109,52 +109,52 @@ The system is built with a modular architecture, making it easy to extend and cu
 
 ---
 
-## ✨ Core Features
+## Core Features
 
-### 🔄 Automated Data Pipeline
+### Automated Data Pipeline
 - **Ingestion**: Processes raw transaction CSV files
 - **Preprocessing**: Cleans, normalizes, and validates transaction data
 - **Feature Engineering**: Generates daily and monthly aggregated features
 - **Pattern Identification**: Extracts temporal and categorical spending patterns
 
-### 🔍 Anomaly Detection
+### Anomaly Detection
 - **Z-Score Analysis**: Identifies transactions deviating significantly from user's normal behavior
 - **Isolation Forest**: Detects multivariate anomalies in transaction patterns
 - **Spike Detection**: Flags unusual spending spikes and outliers
 - **Transaction-Level Flagging**: Marks anomalous transactions with reasons
 
-### 📊 Predictive Analytics
+### Predictive Analytics
 - **Next-Month Spending Prediction**: XGBoost regression model for expense forecasting
 - **Savings Rate Prediction**: Forecasts future savings behavior
 - **Overspend Risk Assessment**: Binary classification for overspending probability
 - **Lag-Based Features**: Uses historical patterns (1, 3, 6 months) for predictions
 
-### 👥 User Persona Clustering
+### User Persona Clustering
 - **KMeans Clustering**: Groups users into behavioral personas (3 clusters)
 - **User-Level Aggregation**: Creates feature vectors from monthly patterns
 - **Peer Comparison**: Compares individual users against their cluster peers
 - **Behavioral Segmentation**: Identifies spending, savings, and volatility patterns
 
-### 🚦 Rule-Based & Statistical Signals
+### Rule-Based & Statistical Signals
 - **Rule-Based Flags**: Detects low savings, high volatility, merchant dependency, etc.
 - **Statistical Signals**: Z-score based unusual spending/savings detection
 - **Comparative Analysis**: Month-over-month changes in spending, income, categories
 - **Temporal Patterns**: Weekend vs. weekday spending analysis
 
-### 🤖 AI-Powered Insights
+### AI-Powered Insights
 - **Gemini Integration**: Uses Google Gemini 2.5 Flash for natural language generation
 - **Mini-Agent Architecture**: Prioritizes and selects insights from candidate pool
 - **Actionable Recommendations**: Provides specific, data-driven financial advice
 - **Follow-Up Q&A**: Supports conversational queries about financial data
 
-### 🖥️ User Interface
+### User Interface
 - **Streamlit Web App**: Interactive dashboard for exploring insights
 - **CLI Mode**: Command-line interface for programmatic access
 - **Real-Time Analysis**: On-demand insights generation for any user-month combination
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
@@ -184,7 +184,7 @@ Create a `.env` file in the project root directory:
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 The system uses a central configuration file (`config.py`) for easy customization:
 
@@ -201,7 +201,7 @@ You can modify these values directly in `config.py` to adjust system behavior.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Running the Streamlit UI
 
@@ -267,7 +267,7 @@ print(answer)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AI_Intern_Assignment/
@@ -305,7 +305,7 @@ AI_Intern_Assignment/
 
 ---
 
-## 📚 Module Documentation
+## Module Documentation
 
 ### Data Processing Modules
 
@@ -432,7 +432,7 @@ Interactive web interface:
 
 ---
 
-## 🔄 Data Pipeline
+## Data Pipeline
 
 The system processes data through the following stages:
 
