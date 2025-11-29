@@ -1,0 +1,77 @@
+[
+  {
+    "user_id": "user_001",
+    "profile": {
+      "age": 26,
+      "occupation": "Software Engineer",
+      "monthly_income": 85000
+    },
+    "transactions": [
+      {"date": "2025-10-01", "amount": 85000, "type": "income", "category": "Salary", "merchant": "Tech Corp", "payment_mode": "Bank Transfer"},
+      {"date": "2025-10-02", "amount": 1200, "type": "expense", "category": "Food", "merchant": "Swiggy", "payment_mode": "UPI", "day_type": "weekday"},
+      {"date": "2025-10-03", "amount": 350, "type": "expense", "category": "Food", "merchant": "Starbucks", "payment_mode": "Credit Card", "day_type": "weekday"},
+      {"date": "2025-10-05", "amount": 15000, "type": "expense", "category": "Rent", "merchant": "Landlord", "payment_mode": "Bank Transfer", "recurring": true, "day_type": "weekday"},
+      {"date": "2025-10-06", "amount": 2500, "type": "expense", "category": "Shopping", "merchant": "Amazon", "payment_mode": "Credit Card", "day_type": "weekday"},
+      {"date": "2025-10-07", "amount": 3500, "type": "expense", "category": "Entertainment", "merchant": "PVR Cinemas", "payment_mode": "Debit Card", "day_type": "weekend"},
+      {"date": "2025-10-08", "amount": 4200, "type": "expense", "category": "Food", "merchant": "Restaurant", "payment_mode": "Credit Card", "day_type": "weekend"},
+      {"date": "2025-10-10", "amount": 199, "type": "expense", "category": "Subscriptions", "merchant": "Netflix", "payment_mode": "Credit Card", "recurring": true, "day_type": "weekday"},
+      {"date": "2025-10-10", "amount": 299, "type": "expense", "category": "Subscriptions", "merchant": "Spotify", "payment_mode": "UPI", "recurring": true, "day_type": "weekday"},
+      {"date": "2025-10-12", "amount": 850, "type": "expense", "category": "Food", "merchant": "Zomato", "payment_mode": "UPI", "day_type": "weekday"},
+      {"date": "2025-10-14", "amount": 6500, "type": "expense", "category": "Shopping", "merchant": "Myntra", "payment_mode": "Credit Card", "day_type": "weekend"},
+      {"date": "2025-10-15", "amount": 180, "type": "expense", "category": "Transport", "merchant": "Uber", "payment_mode": "UPI", "day_type": "weekday"},
+      {"date": "2025-10-16", "amount": 5000, "type": "expense", "category": "Investment", "merchant": "Mutual Fund", "payment_mode": "Bank Transfer", "recurring": true, "day_type": "weekday"},
+      {"date": "2025-10-18", "amount": 1500, "type": "expense", "category": "Health", "merchant": "Pharmacy", "payment_mode": "UPI", "day_type": "weekday"},
+      {"date": "2025-10-20", "amount": 8500, "type": "expense", "category": "Travel", "merchant": "MakeMyTrip", "payment_mode": "Credit Card", "day_type": "weekday"},
+      {"date": "2025-10-22", "amount": 450, "type": "expense", "category": "Food", "merchant": "Cafe Coffee Day", "payment_mode": "Debit Card", "day_type": "weekend"},
+      {"date": "2025-10-25", "amount": 2200, "type": "expense", "category": "Utilities", "merchant": "Electricity Board", "payment_mode": "UPI", "recurring": true, "day_type": "weekday"},
+      {"date": "2025-10-28", "amount": 3200, "type": "expense", "category": "Shopping", "merchant": "Flipkart", "payment_mode": "Credit Card", "day_type": "weekend"}
+    ]
+  },
+  {
+    "user_id": "user_002",
+    "profile": {
+      "age": 31,
+      "occupation": "Freelance Designer",
+      "monthly_income": "Variable"
+    },
+    "transactions": [
+      {"date": "2025-10-05", "amount": 45000, "type": "income", "category": "Freelance", "merchant": "Client A", "payment_mode": "Bank Transfer"},
+      {"date": "2025-10-15", "amount": 32000, "type": "income", "category": "Freelance", "merchant": "Client B", "payment_mode": "Bank Transfer"},
+      {"date": "2025-10-22", "amount": 18000, "type": "income", "category": "Freelance", "merchant": "Client C", "payment_mode": "Bank Transfer"},
+      {"date": "2025-10-02", "amount": 12000, "type": "expense", "category": "Rent", "merchant": "Landlord", "payment_mode": "Cash", "recurring": true, "day_type": "weekday"},
+      {"date": "2025-10-03", "amount": 800, "type": "expense", "category": "Food", "merchant": "Local Market", "payment_mode": "Cash", "day_type": "weekday"},
+      {"date": "2025-10-06", "amount": 4500, "type": "expense", "category": "Software", "merchant": "Adobe", "payment_mode": "Credit Card", "recurring": true, "day_type": "weekday"},
+      {"date": "2025-10-08", "amount": 2800, "type": "expense", "category": "Food", "merchant": "Restaurant", "payment_mode": "UPI", "day_type": "weekend"},
+      {"date": "2025-10-10", "amount": 150, "type": "expense", "category": "Transport", "merchant": "Metro", "payment_mode": "Cash", "day_type": "weekday"},
+      {"date": "2025-10-12", "amount": 3200, "type": "expense", "category": "Shopping", "merchant": "Amazon", "payment_mode": "Debit Card", "day_type": "weekday"},
+      {"date": "2025-10-14", "amount": 1500, "type": "expense", "category": "Utilities", "merchant": "Internet Provider", "payment_mode": "UPI", "recurring": true, "day_type": "weekend"},
+      {"date": "2025-10-18", "amount": 550, "type": "expense", "category": "Food", "merchant": "Swiggy", "payment_mode": "UPI", "day_type": "weekday"},
+      {"date": "2025-10-20", "amount": 8000, "type": "expense", "category": "Investment", "merchant": "Stock Market", "payment_mode": "Bank Transfer", "day_type": "weekday"},
+      {"date": "2025-10-25", "amount": 1200, "type": "expense", "category": "Utilities", "merchant": "Electricity", "payment_mode": "UPI", "recurring": true, "day_type": "weekday"}
+    ]
+  },
+  {
+    "user_id": "user_003",
+    "profile": {
+      "age": 22,
+      "occupation": "College Student",
+      "monthly_income": 15000
+    },
+    "transactions": [
+      {"date": "2025-10-01", "amount": 15000, "type": "income", "category": "Allowance", "merchant": "Parents", "payment_mode": "Bank Transfer"},
+      {"date": "2025-10-02", "amount": 250, "type": "expense", "category": "Food", "merchant": "College Canteen", "payment_mode": "Cash", "day_type": "weekday"},
+      {"date": "2025-10-03", "amount": 180, "type": "expense", "category": "Transport", "merchant": "Bus Pass", "payment_mode": "UPI", "day_type": "weekday"},
+      {"date": "2025-10-05", "amount": 3500, "type": "expense", "category": "Education", "merchant": "Book Store", "payment_mode": "UPI", "day_type": "weekday"},
+      {"date": "2025-10-07", "amount": 1200, "type": "expense", "category": "Entertainment", "merchant": "Gaming Store", "payment_mode": "Debit Card", "day_type": "weekend"},
+      {"date": "2025-10-09", "amount": 99, "type": "expense", "category": "Subscriptions", "merchant": "Spotify", "payment_mode": "UPI", "recurring": true, "day_type": "weekday"},
+      {"date": "2025-10-10", "amount": 450, "type": "expense", "category": "Food", "merchant": "McDonald's", "payment_mode": "UPI", "day_type": "weekday"},
+      {"date": "2025-10-12", "amount": 800, "type": "expense", "category": "Shopping", "merchant": "Fashion Store", "payment_mode": "Cash", "day_type": "weekday"},
+      {"date": "2025-10-14", "amount": 2500, "type": "expense", "category": "Entertainment", "merchant": "Concert Tickets", "payment_mode": "UPI", "day_type": "weekend"},
+      {"date": "2025-10-16", "amount": 350, "type": "expense", "category": "Food", "merchant": "Cafe", "payment_mode": "UPI", "day_type": "weekday"},
+      {"date": "2025-10-18", "amount": 150, "type": "expense", "category": "Food", "merchant": "Tea Stall", "payment_mode": "Cash", "day_type": "weekday"},
+      {"date": "2025-10-21", "amount": 1800, "type": "expense", "category": "Shopping", "merchant": "Amazon", "payment_mode": "Debit Card", "day_type": "weekend"},
+      {"date": "2025-10-24", "amount": 600, "type": "expense", "category": "Food", "merchant": "Pizza Hut", "payment_mode": "UPI", "day_type": "weekday"},
+      {"date": "2025-10-28", "amount": 2000, "type": "expense", "category": "Entertainment", "merchant": "Movie & Dinner", "payment_mode": "Cash", "day_type": "weekend"}
+    ]
+  }
+]
