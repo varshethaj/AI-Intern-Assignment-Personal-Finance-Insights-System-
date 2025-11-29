@@ -436,8 +436,10 @@ Interactive web interface:
 
 The system processes data through the following stages:
 
-### Stage 1: Data Ingestion & Preprocessing
+### Stage 1: Data Generation & Preprocessing
 ```bash
+#generate dataset
+python generate_synthetic_data.py
 # Run preprocessing
 python data_preprocessing.py
 ```
@@ -495,33 +497,6 @@ python llm_integration.py
 - Output: AI-generated insights + Q&A
 
 **Note**: For a complete pipeline run, execute stages 1-5 in order. Stage 6 can be run independently once all intermediate files are generated.
-
-
-## 📸 Screenshots
-
-> **Note**: Screenshots will be added here to showcase:
-> - Streamlit UI dashboard
-> - Sample insights output
-> - Follow-up Q&A interface
-> - Financial metrics visualization
-
-
-## 📄 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-**Note**: This is an assignment project. Please review licensing requirements before commercial use.
-
-
-## 🙏 Acknowledgments
-
-### Technologies & Libraries
-- **Google Gemini API**: For natural language generation and conversational AI
-- **XGBoost**: Gradient boosting framework for predictions
-- **scikit-learn**: Machine learning utilities (KMeans, Isolation Forest, preprocessing)
-- **Streamlit**: Rapid web app development framework
-- **pandas & numpy**: Data manipulation and numerical computing
-- **python-dotenv**: Environment variable management
 
 ### Inspiration
 This project was developed as part of an AI Intern assignment, demonstrating end-to-end data science and machine learning capabilities in the personal finance domain.
